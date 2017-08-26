@@ -1,6 +1,6 @@
 .main-top-section {
     width: 100%;
-    height: 375px;
+    height: 100vh;
     background: #F7F1E7;
     position: relative;
 }
@@ -10,6 +10,10 @@
     height: 70px;
     text-align: center;
     background: #D8D8D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
@@ -40,4 +44,8 @@
     height: 60px;
     left: 22%;
     background: #536A63;
+    /*position: relative;
+    top: 90vh;*/
+    position: absolute;
+    bottom: -28px;
 }
